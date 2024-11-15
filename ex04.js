@@ -1,9 +1,9 @@
 function isSumEven(a, b) {
 	let c = a + b;
   if (c % 2 === 0){
-    return "true";
+    return true;
   } else {
-    return "false";
+    return false;
   }
 }
 

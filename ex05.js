@@ -1,8 +1,8 @@
 function isEnoughMoney(price, wallet) {
 	if (wallet >= price){
-      return "true";
+      return true;
     } else {
-      return "false";
+      return false;
     }
 }
 
