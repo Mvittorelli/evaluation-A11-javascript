@@ -1,5 +1,5 @@
 function getReduction(price, age) {
-	if (age <= 5){
+	if (age < 5){
       return (price/100)*0;
     } else if(age <= 18){
       return (price/100)*50;
